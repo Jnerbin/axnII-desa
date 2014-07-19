@@ -1,0 +1,32 @@
+# Archivo de Parametrizacion de Comunicaciones y Base de Datos
+#--------------------------------------------------------------
+# Para cada Empresa se repite todo lo que sigue...En realidad
+# la idea es cambioar valores, 
+# Los valores se separan con Pipe (|). Y estos son
+# para las Empresas:
+#   Empresa (fijo y denota el tipo de registro...)
+#   Nombre de la empresa (solo info...de momento elñombre de la base)
+#   Base a conectar
+#   Puertos que escuchan los Modems -> pasarlo a Vehiculos
+#   
+#------------ Usuario de Peocesos ------#
+Usuario|trackadm|trackadm
+#------------- Otros parametros --------#
+DirBase|/home/track/.track
+DirComm|comm
+DirLogs|logs
+DirBin|bin
+DirMsg|msg
+DirBatch|batch
+DirCli|CLIENTES
+DirProc|proc
+DirXML|/var/www/html/axnII/tmp/
+DifHora|14400|Horario Normal
+#DifHora|14400|Horario de verano
+#-------------  EMPRESAS ---------------#
+Empresa|DJBN|dbi:mysql:database=DJBN;host=localhost;port=3306|40003
+Empresa|BESS|dbi:mysql:database=BESS;host=localhost;port=3306|40003
+Empresa|IBER|dbi:mysql:database=IBER;host=localhost;port=3306|40003
+Empresa|DEMOS|dbi:mysql:database=DEMOS;localhost;port=3306|40003
+Empresa|ESEG|dbi:mysql:database=ESEG;host=localhost;port=3306|40003
+Empresa|MTRO|dbi:mysql:database=MTRO;host=localhost;port=3306|40003

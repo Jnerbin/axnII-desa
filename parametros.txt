@@ -1,0 +1,8 @@
+path_cgi:/var/www/cgi-bin/axntrack;
+path_web:/var/www/html/axntrack;
+path_map:/var/www/cgi-bin/axntrack/mapas;
+path_tmp:/tmp;
+path_img_out:/var/www/html/axntrack/tmp;
+path_url_out:axntrack/tmp;
+zoommarca:70
+
